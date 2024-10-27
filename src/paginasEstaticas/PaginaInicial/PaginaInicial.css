@@ -1,0 +1,47 @@
+.heroSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    gap: 30px;
+}
+
+.heroSection .image {
+    background: url(/public/assets/images/bg-hero.avif) no-repeat center center;
+    background-size: cover;
+    height: 830px;
+    width: 550px;
+}
+
+.heroSection .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Outfit", sans-serif;
+    width: 450px;
+    gap: 40px;
+    margin: 10px;
+}
+
+.heroSection .text .content .title {
+    font-size: 4.3rem;
+    font-weight: 400;
+}
+
+.heroSection .text .content .tags {
+    display: flex;
+    margin-top: 10px;
+    gap: 3px;
+}
+
+.heroSection .text .content .tags p {
+    background: rgb(255, 123, 0);
+    color: #fff;
+    font-size: 14px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.heroSection .text .content .tags p:hover {
+    background: orange;
+}
