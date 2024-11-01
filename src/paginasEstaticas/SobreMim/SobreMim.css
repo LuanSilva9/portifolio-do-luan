@@ -1,0 +1,57 @@
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 10px 0px;
+    gap: 30px;
+}
+
+.about-me .text-content-primary {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px 10;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+}
+
+.about-me .text-content-primary .title {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.about-me .text-content-primary .title::before {
+    content: "";
+    position: absolute;
+    top: 50%; 
+    left: 0;
+    transform: translateY(-50%); 
+    width: 10px;
+    height: 10px;
+    background: #ff7b00;
+}
+
+.about-me .text-content-primary p {
+    font-family: "Outfit", sans-serif;
+    text-align: justify;
+}
+
+.soft-skills-cards {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px 10;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 25px;
+}
+
+.soft-skills-cards .title {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #e06c00;
+}

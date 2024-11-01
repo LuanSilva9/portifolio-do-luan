@@ -11,7 +11,7 @@ export default function Cabecalho() {
 
             <div className="items">
                 <li>
-                    <Link className='link' to="/">Sobre Mim</Link>
+                    <Link className='link' to="/sobre-mim">Sobre Mim</Link>
                 </li>
                 
                 <li>
