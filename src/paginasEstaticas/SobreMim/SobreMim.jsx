@@ -8,7 +8,7 @@ export default function SobreMim() {
             <div className="text-content-primary">
                 <h2 className="title">Minha Historia</h2>
                 <p>Nascido em 2005, em Sorriso - MT, vim para o Mato Grosso do Sul ainda bem novo e moro aqui até hoje, em Naviraí, atualmente eu tenho 18 anos e estou a procura de trabalhos na area de Programação.</p>
-                <p>Eu me interesso por Ciencias exatas, física e matemática, mas especialmente física, se eu não tivesse seguido a área do desenvolvimento, eu com certeza seria físico, deslumbrar o nosso tamanho em relação ao cosmos e o tamanho de particulas em relação a nós é algo que sempre me encantou, em 2022 escrevi um trabalho de conclusão de curso que combinava a ciência da física quantica com a matemática da computação, o trabalho pode ser lido clicando <Link to="/">Aqui</Link></p>
+                <p>Eu me interesso por Ciencias exatas, física e matemática, mas especialmente física, se eu não tivesse seguido a área do desenvolvimento, eu com certeza seria físico, deslumbrar o nosso tamanho em relação ao cosmos e o tamanho de particulas em relação a nós é algo que sempre me encantou, em 2022 escrevi um trabalho de conclusão de curso que combinava a ciência da física quantica com a matemática da computação, o trabalho pode ser lido clicando <Link to="https://docs.google.com/document/d/1ZG-nWm1pUJZLKcDm9EbTw8d_6XVBsMkUJOJcy2yHRkE/edit?usp=sharing">Aqui</Link></p>
               </div>
 
               <div className="text-content-primary">
@@ -21,41 +21,41 @@ export default function SobreMim() {
                 <p>Por fim, na graduação atualmente, curso Analise de Sistemas no mesmo Campus, porem agora eu posso ir mais alem e estudar coisas mais complexas e teóricas que na minha opinião é um ponto fraco meu, gosto de estudar tudo na prática mas a parte teórica fica defasada. </p>
             </div>
 
-            {/* <div className="soft-skills-cards">
+            <div className="soft-skills-cards">
                 <h2 className='title'>Minhas Soft-skills</h2>
 
                 <div className="cards">
                     <div className="card-single">
-                        <img />
+                        <img src='/assets/images/comunicacao.gif' />
                         <h4 className="card-title">Comunicação Eficiente</h4>
                     </div>
 
                     <div className="card-single">
-                        <img src="" alt="" />
+                        <img src="/assets/images/quebra-cabeca.gif"/>
                         <h4 className="card-title">Resolução de Problemas</h4>
                     </div>
 
                     <div className="card-single">
-                        <img src="" alt="" />
+                        <img src="/assets/images/trabalho-em-equipe.gif"/>
                         <h4 className="card-title">Trabalho em Equipe</h4>
                     </div>
 
                     <div className="card-single">
-                        <img src="" alt="" />
+                        <img src="/assets/images/rotina.gif"/>
                         <h4 className="card-title">Proatividade</h4>
                     </div>
 
                     <div className="card-single">
-                        <img src="" alt="" />
+                        <img src="/assets/images/ampulheta.gif"/>
                         <h4 className="card-title">Gestão de Tempo</h4>
                     </div>
 
                     <div className="card-single">
-                        <img src="" alt="" />
+                        <img src="/assets/images/lider.gif"/>
                         <h4 className="card-title">Liderança</h4>
                     </div>
                 </div>
-            </div> */}
+            </div> 
         </section>
     )
 }

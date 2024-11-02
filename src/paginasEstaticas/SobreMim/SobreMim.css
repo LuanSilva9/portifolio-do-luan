@@ -3,13 +3,13 @@
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
-    padding: 10px 0px;
+    padding: 20px 0px;
     gap: 30px;
 }
 
 .about-me .text-content-primary {
     width: 90%;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0px 10;
     display: flex;
     flex-flow: column nowrap;
@@ -42,7 +42,7 @@
 
 .soft-skills-cards {
     width: 90%;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0px 10;
     display: flex;
     flex-flow: column nowrap;
@@ -54,4 +54,40 @@
     font-weight: bold;
     font-size: 45px;
     color: #e06c00;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cards .card-single {
+    cursor: pointer;
+    padding: 10px;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 4px #ccc;
+    font-family: "Outfit", sans-serif;
+}
+
+.cards .card-single:hover {
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.cards .card-single h4 {
+    color: #e06c00;
+}
+
+.cards .card-single img {
+    width: 100px;
+    user-select: none;
 }
