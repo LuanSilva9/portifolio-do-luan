@@ -11,6 +11,43 @@
     background-size: cover;
     height: 830px;
     width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Outfit", sans-serif;
+    gap: 40px;
+}
+
+.heroSection .image .content {
+    background: #222222af;
+    padding: 10px;
+    display: none;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    height: inherit;
+}
+
+.heroSection .image .content .title {
+    font-size: 4.3rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+.heroSection .image .content .tags {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    gap: 3px;
+}
+
+.heroSection .image .content .tags p {
+    background: linear-gradient(90deg, rgb(231, 122, 20) 10%, rgb(231, 122, 20) 0%, #222 100%);
+    color: #fff;
+    font-size: 14px;
+    padding: 6px;
+    cursor: pointer;
 }
 
 .heroSection .text {
@@ -44,4 +81,20 @@
 
 .heroSection .text .content .tags p:hover {
     background: orange;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .heroSection .text {
+        display: none;
+    }
+
+    .heroSection .image .content {
+        display: flex;
+    }
+
+    .heroSection {
+        margin: 0;
+    }
+
 }
